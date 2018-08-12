@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/tmli3b3rm4n/router"
-	"awesomeProject1/models"
+	"thatBuilder/models"
 )
 
 func Post (request router.Request) {

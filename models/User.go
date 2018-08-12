@@ -1,9 +1,13 @@
 package models
 
 type User struct {
-	firstname string
+	firstName string
 	age int
 	username string
-	lastname string
-	address Address
+	lastName string
+	rfpCreations rfpCreations
+	Addresses [Address{}]Address
 }
+
+type rfpCreations map[rfp]rfp
+d
