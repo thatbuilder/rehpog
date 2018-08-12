@@ -7,4 +7,8 @@ type Address struct {
 	city  string
 	state string
 	zip   string
+	country string
+	countryCode string
+	isBilling bool
+	user User
 }

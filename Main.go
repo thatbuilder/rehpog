@@ -3,7 +3,7 @@ package main
 import (
 "net/http"
 "github.com/tmli3b3rm4n/router"
-"awesomeProject1/models"
+"thatBuilder/models"
 )
 
 type Action func(out http.ResponseWriter, req router.Request)

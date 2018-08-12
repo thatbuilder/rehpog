@@ -5,5 +5,5 @@ type rfp struct {
 	title      string
 	images     int
 	priceLow   Price
-	priceHighr Price
+	priceHigh Price
 }
